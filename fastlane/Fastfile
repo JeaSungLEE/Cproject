@@ -15,4 +15,12 @@ platform :ios do
             testers: ""
     )
   end
+
+  desc "build test"
+  lane :build_test do
+    build_app(
+	scheme: "Release",
+	export_method: "app-store"
+    )
+  end
 end
