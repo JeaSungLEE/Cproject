@@ -15,13 +15,13 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 ## iOS
 
-### ios increment_build
+### ios distribution_firebase
 
 ```sh
-[bundle exec] fastlane ios increment_build
+[bundle exec] fastlane ios distribution_firebase
 ```
 
-자동으로 빌드 넘머 올리는 fastlane
+firebase에 배포하는 fastlane
 
 ----
 
