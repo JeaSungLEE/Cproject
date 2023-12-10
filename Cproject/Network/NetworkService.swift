@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum NetworkError: Error {
-    case urlError
-    case responseError
-    case decodeError
-    case serverError(statusCode: Int)
-    case unknownError
-}
+//enum NetworkError: Error {
+//    case urlError
+//    case responseError
+//    case decodeError
+//    case serverError(statusCode: Int)
+//    case unknownError
+//}
 
 class NetworkService {
     static let shared: NetworkService = NetworkService()
