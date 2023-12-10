@@ -1,0 +1,17 @@
+name: build test
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: build test
+    runs-on: macOS
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: build test
+        run: |
+          fastlane build_test
